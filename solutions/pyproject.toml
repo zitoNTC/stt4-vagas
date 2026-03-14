@@ -1,0 +1,9 @@
+[project]
+name = "mars-rover"
+version = "1.0.0"
+description = "Mars Rover Control System"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
